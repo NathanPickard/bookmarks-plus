@@ -7,6 +7,7 @@ angular.module('bookmarksplus', [])
             { "id": 3, "name": "Humor" }
         ];
 
+        // Data array
         $scope.bookmarks = [
             { "id": 0, "title": "AngularJS", "url": "http://angularjs.org", "category": "Development" },
             { "id": 1, "title": "Egghead.io", "url": "http://egghead.io", "category": "Development" },
@@ -88,7 +89,6 @@ angular.module('bookmarksplus', [])
         $scope.deleteBookmark = deleteBookmark;
 
         // States
-
         function startCreating() {
             $scope.isCreating = true;
             $scope.isEditing = false;

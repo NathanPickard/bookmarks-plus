@@ -32,6 +32,7 @@
                 </div>
                 <hr/>
 
+                <!-- Creating bookmark -->
                 <div ng-if="shouldShowCreating()">
                     <button type="button" class="btn btn-link" ng-click="startCreating()">
                         <span class="glyphicon glyphicon-plus"></span>
@@ -51,7 +52,8 @@
 
                     </form>
                 </div>
-
+                
+                <!-- Editing bookmark -->
                 <div ng-show="shouldShowEditing()">
                     <h4>Editing {{editedBookmark.title}}</h4>
 
