@@ -116,6 +116,7 @@ angular.module('bookmarksplus', [])
         function shouldShowEditing() {
             return $scope.isEditing && !$scope.isCreating;
         }
+        
 
         $scope.startCreating = startCreating;
         $scope.cancelCreating = cancelCreating;
